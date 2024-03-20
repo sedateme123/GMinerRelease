@@ -6,7 +6,7 @@ GMiner maintains a leading position in the mining of such coins as Beam, Grin, C
 In 2020, the miner added support for Ethash, ProgPoW and KAWPOW algorithms with high performance relative to competitors.<br/>
 The development team never stops at what has been achieved and achieves the maximum performance of the algorithms with the minimum power consumption, it is these qualities that distinguish GMiner from the competitors and win the hearts of users.<br/>
 
-# Miner Features:
+# Miner Features
 
 * commission is charged continuously, and not in intervals (as in most miners), which has a positive effect on the user's profitability on PPLNS pools
 * verifying generated DAG, warning when GPU overclocking is very high for Ethash, Etcash, KAWPOW and ProgPoW algorithms, helps to overclock GPU without errors
@@ -30,7 +30,6 @@ The development team never stops at what has been achieved and achieves the maxi
 * safe DAG generation for Nvidia GPUs
 * automatic fan speed control for target temperature
 * support charging of maintenance fee
-
 
 # Miner options
 
@@ -79,7 +78,7 @@ The development team never stops at what has been achieved and achieves the maxi
 ```--watchdog_mode``` - watchdog action on miner quits (0 - restart miner, 1 - reboot system), default value is '0' (for example: '1')<br/>
 ```--min_rig_speed``` - minimal rig speed, miner quits if average speed drop below specified value<br/>
 ```--report_interval``` - statistics report interval in seconds, default value is '30' (for example: '5')<br/>
-```--api``` - telemetry server port, allows you to monitor the miner status remotely, open a link in your browser http://localhost:port (for example: '10050', '20030')<br/>
+```--api``` - telemetry server port, allows you to monitor the miner status remotely, open a link in your browser <http://localhost:port> (for example: '10050', '20030')<br/>
 ```--config``` - specify configuration file<br/>
 ```--pers``` - personalization string for equihash algorithm (for example: 'BgoldPoW', 'BitcoinZ', 'Safecoin')<br/>
 ```--pec``` - enable/disable power efficiency calculator. Power efficiency calculator display of energy efficiency statistics of GPU, higher CPU load. Default value is '1' ('0' - off or '1' - on)<br/>
@@ -124,7 +123,7 @@ eth.2miners.com:2020 - maintenance fee pool<br/>
 
 Miner resets mt, cclock, cvddc, mclock parameters to default values while DAG generation to avoid errors<br/>
 
-# Parameters details:
+# Parameters details
 
 ```--kernel``` - allows you to choose one of several kernels, the fastest kernel is automatically selected by default. <br/>
 Cores differ in performance and energy efficiency depending on the GPU model and overclocking parameters. <br/>
@@ -180,7 +179,7 @@ To save the miner's logs to a file for later analysis:<br/>
 ```miner --algo ethash --server eth.2miners.com:2020 --user 0x5218597d48333d4a70cce91e810007b37e2937b5.worker1 --logfile c:\log.txt```<br/>
 where "c:\log.txt" is the path to the file with the miner's logs<br/>
 
-# Supported algorithms and developer commission:
+# Supported algorithms and developer commission
 
 |algorithm|fee|
 |-|-|
@@ -196,11 +195,11 @@ where "c:\log.txt" is the path to the file with the miner's logs<br/>
 | equihash210_9 | 2% |
 | cuckoo29, aeternity | 2% |
 
-# Resources:
+# Resources
 
 Official site: <http://gminer.pro> <br/>
-Github: https://github.com/develsoftware/GMinerRelease <br/>
-BitcoinTalk: https://bitcointalk.org/index.php?topic=5034735.0 <br/>
-Discord: https://discord.gg/J7RUG3FDYw <br/>
-Telegram chat: https://t.me/gminer_talk <br/>
-Telegram announcements: https://t.me/gminer_releases <br/>
+Github: <https://github.com/develsoftware/GMinerRelease> <br/>
+BitcoinTalk: <https://bitcointalk.org/index.php?topic=5034735.0> <br/>
+Discord: <https://discord.gg/J7RUG3FDYw> <br/>
+Telegram chat: <https://t.me/gminer_talk> <br/>
+Telegram announcements: <https://t.me/gminer_releases> <br/>
