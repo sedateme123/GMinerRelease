@@ -198,7 +198,7 @@ where "c:\log.txt" is the path to the file with the miner's logs<br/>
 
 # Resources:
 
-Official site: http://gminer.pro <br/>
+Official site: <http://gminer.pro> <br/>
 Github: https://github.com/develsoftware/GMinerRelease <br/>
 BitcoinTalk: https://bitcointalk.org/index.php?topic=5034735.0 <br/>
 Discord: https://discord.gg/J7RUG3FDYw <br/>
