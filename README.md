@@ -7,6 +7,7 @@ In 2020, the miner added support for Ethash, ProgPoW and KAWPOW algorithms with 
 The development team never stops at what has been achieved and achieves the maximum performance of the algorithms with the minimum power consumption, it is these qualities that distinguish GMiner from the competitors and win the hearts of users.<br/>
 
 # Miner Features:
+
 * commission is charged continuously, and not in intervals (as in most miners), which has a positive effect on the user's profitability on PPLNS pools
 * verifying generated DAG, warning when GPU overclocking is very high for Ethash, Etcash, KAWPOW and ProgPoW algorithms, helps to overclock GPU without errors
 * verifying Shares on processor, warning when GPU overclocking is very high for Ethash, Etcash, KAWPOW and ProgPoW algorithms, helps to overclock GPU without errors
@@ -31,7 +32,8 @@ The development team never stops at what has been achieved and achieves the maxi
 * support charging of maintenance fee
 
 
-# Miner options:
+# Miner options
+
 ```--help``` or shortly ```-h``` - display available options<br/>
 ```--version``` or shortly ```-v``` - print program version<br/>
 ```--user_id``` - print user ID<br/>
@@ -123,6 +125,7 @@ eth.2miners.com:2020 - maintenance fee pool<br/>
 Miner resets mt, cclock, cvddc, mclock parameters to default values while DAG generation to avoid errors<br/>
 
 # Parameters details:
+
 ```--kernel``` - allows you to choose one of several kernels, the fastest kernel is automatically selected by default. <br/>
 Cores differ in performance and energy efficiency depending on the GPU model and overclocking parameters. <br/>
 To set the kernel manually, pass the kernel index to the parameter. <br/>
@@ -141,7 +144,8 @@ In safe mode (value 2, auto for RTX GPUs) miner generates DAG with error control
 Miner monitors temperature of GPU and actively controls the fan speed trying to hold target temperature.<br/>
 ```--tfan_min``` and ```--tfan_max``` options set minimum and maximum fan speed limits.<br/>
 
-# Fast start:
+# Fast start
+
 To start Ethash, enter at the command line:<br/>
 ```miner --algo ethash --server eth.2miners.com:2020 --user 0x5218597d48333d4a70cce91e810007b37e2937b5.worker1```<br/>
 ```--algo``` - mining algorithm, in this case ethash<br/>
@@ -177,6 +181,7 @@ To save the miner's logs to a file for later analysis:<br/>
 where "c:\log.txt" is the path to the file with the miner's logs<br/>
 
 # Supported algorithms and developer commission:
+
 |algorithm|fee|
 |-|-|
 | eth, ethash | 2% |
@@ -192,6 +197,7 @@ where "c:\log.txt" is the path to the file with the miner's logs<br/>
 | cuckoo29, aeternity | 2% |
 
 # Resources:
+
 Official site: http://gminer.pro <br/>
 Github: https://github.com/develsoftware/GMinerRelease <br/>
 BitcoinTalk: https://bitcointalk.org/index.php?topic=5034735.0 <br/>
